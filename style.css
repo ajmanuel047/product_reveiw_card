@@ -12,14 +12,18 @@ body {
 }
 
 img {
-    max-width: 100%;  
+    width: 100%;  
     border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 8px;
+    height: 100%;
 }
 
 .image {
-    flex: 1;   
-    
+    flex: 1.1;   
+    height: 100%;
+    background-color: green;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
 }
 
 .media {
@@ -27,16 +31,66 @@ img {
     background-color: orange;
     width: 440px;
     align-items: flex-start;
-    height: 315px;
-    border-radius: 10px;
+    height: 350px;
+    border-radius: 8px;
 }
 
 .media .content {
-    padding: 10px;
+    padding: 15px;
     flex: 1;
 }
 
+.content {    
+    height: 100%;
+}
+
+h1 {
+    line-height: 1.8rem;
+    margin-top: 15px;
+}
+
+.content p:nth-of-type(2){
+    margin-top: 15px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.price p:nth-of-type(1){
+    font-size: 1.5rem;
+}
+
+.price p:nth-of-type(2){
+    text-decoration: line-through;
+    font-size: 0.7rem;
+    margin-right: 60px;
+    margin-top: 8px;
+}
+
+svg {
+    color: white;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+}
+
+svg {
+    
+}
 .attribution {
     position: absolute;
-    bottom:60px;
+    bottom: 40px;
 }
