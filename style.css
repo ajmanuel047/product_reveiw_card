@@ -15,7 +15,6 @@ body {
 
 .media {
     display: flex;
-    flex-wrap: wrap;
     background-color: white;
     width: 470px;
     border-radius: 8px;
@@ -25,7 +24,6 @@ body {
 .image {
     flex: 1.1;   
     width: 100%;
-    background-color: green;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
 }
@@ -121,8 +119,12 @@ button:hover {
        background-color: green;
       }
 
-    .media {
+      .media {
         flex-direction: column;
+    }
+
+    .image img {
+        content: url(./images/image-product-mobile.jpg);
     }
 
 }
