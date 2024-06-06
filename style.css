@@ -121,10 +121,19 @@ button:hover {
 
       .media {
         flex-direction: column;
+        padding: 30px;
+        margin-top: 30px;
+        
+        
     }
 
     .image img {
         content: url(./images/image-product-mobile.jpg);
+    }
+
+    img {
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
     }
 
 }
